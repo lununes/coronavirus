@@ -764,7 +764,7 @@ b, strong {font-weight: 700;}
 }
 
 .nav-menu ul li:hover > a {
-  color: var(--link-color-hover);
+  color:var(--main-color4);
 }
 
 .nav-menu ul ul {
@@ -931,7 +931,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-divider {
   display:block;
   margin: 0;
-  margin-bottom: 30px;
   width:222px;
   height:21px;
 }
