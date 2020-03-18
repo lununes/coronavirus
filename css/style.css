@@ -6,7 +6,7 @@
     --main-color1: #222; /*Black*/
     --main-color2: #601848; /*Violet*/
     --main-color3: #007699; /*Blue*/
-    --main-color4: #01dfed; /*Light Blue*/
+    --main-color4: #07d1de; /*Light Blue*/
     --main-color5: #eff5f5; /*Light Gray*/
     --main-color6: #00478a; /*Dark Blue*/
     --main-color7: #FFFFFF; /*White*/
@@ -18,9 +18,9 @@
     --white-color: #fff;
 
     /*Serie 3*/
-    --main-color4: #01dfed; /*Light Blue*/
-    --main-color4-over: #0d4a7f; /*Pink/
-    --main-color4-pressed: #ff9bab; /*Bronze*/
+    --main-color4: #07d1de; /*Light Blue*/
+    --main-color4-over: #0d4a7f; /*Blue*/
+    --main-color4-pressed: #07d1de; /*Light Blue*/
 }
 
 /*--------------------------------------------------------------
