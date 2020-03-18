@@ -5,21 +5,22 @@
 :root {
     --main-color1: #222; /*Black*/
     --main-color2: #601848; /*Violet*/
-    --main-color3: #2dc997; /*Green*/
-    --main-color4: #ff8831; /*Orange*/
+    --main-color3: #007699; /*Blue*/
+    --main-color4: #01dfed; /*Light Blue*/
     --main-color5: #eff5f5; /*Light Gray*/
     --main-color6: #00478a; /*Dark Blue*/
+    --main-color7: #FFFFFF; /*White*/
 
     --secondary-color1: #239872; /*Darker Green*/
 
     --link-color1: #911166; /*Violet*/
-    --link-color-hover: #2dc997; /*Green*/
+    --link-color-hover: #007699; /*Blue/
     --white-color: #fff;
 
     /*Serie 3*/
-    --main-color4: #ef7216; /*Orange*/
-    --main-color4-over: #febf00; /*Mustard*/
-    --main-color4-pressed: #b2550f; /*Bronze*/
+    --main-color4: #01dfed; /*Light Blue*/
+    --main-color4-over: #0d4a7f; /*Pink/
+    --main-color4-pressed: #ff9bab; /*Bronze*/
 }
 
 /*--------------------------------------------------------------
@@ -255,7 +256,7 @@ b, strong {font-weight: 700;}
 }
 
 #header.header-fixed {
-  background: var(--main-color5);
+  background: var(--main-color3);
   padding: 12px 0;
   height: 72px;
   transition: all 0.5s;
@@ -431,7 +432,7 @@ b, strong {font-weight: 700;}
 
 #intro h2 {
   font-family: 'Montserrat', sans-serif;
-  color: var(--main-color1);
+  color: var(--main-color7);
   margin: 30px 0;
   padding: 0 15px;
   font-size: 48px;
@@ -512,7 +513,7 @@ b, strong {font-weight: 700;}
 
 #intro .headline-small.serie3 {
   background: var(--main-color4);
-  color: var(--white-color);
+  color: #FFFFFF;
 }
 
 #intro .headline-small.serie4 {
@@ -1364,9 +1365,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .capa-capitulos {
   /*background:#ff8831;*/
-  background: linear-gradient(-90deg, rgba(254, 191, 0, 0.6), rgba(255, 136, 49, 0.8)), url("../img/capa-capitulo.png") fixed center center;
+  background: linear-gradient(-90deg, rgba(18, 128, 160, 0.6), rgba(1, 223, 237, 0.8)), url("../img/capa-capitulo.png") fixed center center;
   padding: 15vh 0;
   background-size: cover;
+  color:#FFFFFF;
 }
 
 .capa-capitulos h1,
