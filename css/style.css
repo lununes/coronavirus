@@ -382,7 +382,7 @@ b, strong {font-weight: 700;}
 
 #intro.serie2 {background-image: url("../img/bg1-v2-serie2.png"); /* The image used */}
 
-#intro.serie3 {background-image: url("../img/bg1-v2-serie3.png"); /* The image used */} 
+#intro.serie3 {background-image: url("../img/bg1-v2-serie3.jpg"); /* The image used */} 
 
 #intro.serie4 {background-image: url("../img/bg1-v2-serie4.png"); /* The image used */}  
 
@@ -1210,13 +1210,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #nav-class .cta-btn:hover {
   background: var(--link-color-hover);
-  color:var(--white-color);
+  color:var(--main-color7);
   border: 2px solid var(--link-color-hover);
 }
 
 #nav-class.serie3 .cta-btn:hover {
   background: var(--main-color4-over);
-  color:var(--white-color);
+  color:var(--main-color7);
   border: 2px solid var(--main-color4-over);
 }
 
