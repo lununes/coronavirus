@@ -12,7 +12,7 @@
   </script>
 
   <meta charset="utf-8">
-  <title>Modelo de recursos visuais</title>
+  <title>Módulo 2 | Aula 1 - Contexto da Evolução do Vírus</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Ciência, Fiocruz, Curso, Ciência Aberta" name="keywords">
   <meta content="" name="description">
@@ -27,18 +27,18 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS --> 
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Biblioteca CSS -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../lib/animate/animate.min.css" rel="stylesheet">
   <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet"><!--Ionicons-->
-  <link href="lib/aos/aos.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+   <link href="../lib/aos/aos.css" rel="stylesheet">
+  <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- CSS geral das aulas e recursos visuais -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-visual-resources.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style-visual-resources.css">
 
 </head>
 
@@ -55,23 +55,38 @@
       </div>
 
       <nav id="nav-menu-container" class="serie3">
-        <ul class="nav-menu serie3">
-          <li class="menu-has-children"><a href="#">Aulas</a>
-            <ul>
-              <li><h6>Curso 1 | Menu do Curso</h6></li>
-              <li class="d-none d-sm-block"><span class="section-divider serie3"></span></li>
-              <li class="d-block d-sm-none"><span class="section-divider mobile"></span></li>
-              <li><a href="aula1.html">Aula 1: XXXX</a></li>
-              <li><a href="aula2.html">Aula 2: XXXXX</a></li>
-              <li><a href="aula3.html">Aula 3: XXXXX</a></li>
-              <li><a href="aula4.html">Aula 4: XXXXX</a></li>
-              <li><a href="aula5.html">Aula 5: XXXXX</a></li>
+        <ul class="nav-menu serie3" id="menu-curso1">
+          <li class="menu-has-children"><a href="" class="sf-with-ul">Aulas</a>
+            <ul style="display: none;">
+              <li class="menu-has-children "><a href="#" class="sf-with-ul">Módulo 1</a>
+                <ul style="display: none;">
+                  <li><h6>Módulo 1: [INSERIR TÍTULO]</h6></li>
+                  <li class="d-none d-sm-block"><span class="section-divider serie3"></span></li>
+                  <li class="d-block d-sm-none"><span class="section-divider mobile"></span></li>
+                  <li><a href="../modulo1/aula1.html">Aula 1: O Vírus</a></li>
+                  <li><a href="../modulo1/aula2.html">Aula 2: Prevenção</a></li>
+                </ul>
+              </li>
+              
+              <li class="menu-has-children "><a href="#" class="sf-with-ul">Módulo 2</a>
+                <ul style="display: none;">
+                  <li><h6>Módulo 2: Manejo Clínico</h6></li>
+                  <li class="d-none d-sm-block"><span class="section-divider serie3"></span></li>
+                  <li><a href="aula1.html">Aula 1: Contexto da Evolução do Vírus</a></li>
+                  <li><a href="aula2.html">Aula 2: Características gerais sobre a infecção pelo novo COVID-19</a></li>
+                  <li><a href="aula3.html">Aula 3: Atendimento</a></li>
+                  <li><a href="aula4.html">Aula 4: Diagnóstico</a></li>
+                  <li><a href="aula5.html">Aula 5: O modelo vigente da proteção das inovações</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
+
           <li><a href='#' data-toggle="modal" data-target="#modal-bibliografia">Bibliografia</a></li>
-          <li><a href='#' data-toggle="modal" data-target="#modal-creditos">Créditos</a></li>
+          <li><a href='#' data-toggle="modal" data-target="#modal-creditos">Créditos</a></li>          
         </ul>
       </nav><!-- #nav-menu-container -->
+
     </div>
 
 
@@ -1534,18 +1549,32 @@
     <!--==========================
       Bloco 14 - Barra de logos
     ============================-->
-    <section id="barra-logos" class="blocos serie3">
+    <section id="barra-logos">
       <div class="container">
-        <div class="row">
+        <div class="row pb-5">
           <div class="col-12">
-            <h6 class="text-center">Parceiros:</h6>
+            <h6 class="text-center pb-4">Parceiros:</h6>
           </div>
-            <div class="col-md-3 offset-md-2">
-              <a href="http://escolacorporativa.fiocruz.br/" target="_blank"><img class="mx-auto d-block" src="../../img/logo-Escola-Corporativa-Fiocruz.png" alt="Logo da Escola Corporativa da Fiocruz"></a>
+
+            <div class="col-md-2">
+              <a href="https://portal.fiocruz.br/" target="_blank"><img class="mx-auto d-block" src="../img/logo-Fiocruz.svg" alt="Logo da Fiocruz"></a>
             </div>
-            <div class="col-md-3 offset-md-2">
-              <a href="https://www.uminho.pt/" target="_blank"><img class="mx-auto d-block" src="../../img/logo-uminho.png" alt="Logo da Universidade do Minho"></a>
-          </div>
+            <div class="col-md-3">
+              <a href="https://www.gov.br/pt-br" target="_blank"><img class="mx-auto d-block" src="../img/logo-governo-federal.svg" alt="Logo do Governo Federal" ></a>
+            </div>
+
+            <div class="col-md-2">
+              <a href="https://www.saude.gov.br/sistema-unico-de-saude" target="_blank"><img class="mx-auto d-block" src="../img/logo-sus.svg" alt="Logo do SUS" style="max-height:60px;"></a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="https://www.who.int/" target="_blank"><img class="mx-auto d-block" src="../img/logo-WHO.svg" alt="Logo da Organização Mundial de Saúde"></a>
+            </div>
+
+            <div class="col-md-2">
+              <a href="https://campusvirtual.fiocruz.br/portal/" target="_blank"><img class="mx-auto d-block" src="../img/logo-cv-black.svg" alt="Logo do Campus Virtual da Fiocruz" style="max-height:60px;"></a>
+            </div>
+
         </div>
     </div>
     </section>
@@ -1905,26 +1934,26 @@
   <a href="#" class="back-to-top serie3"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Biblioteca de JavaScripts-->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/aos/aos.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script src="../lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/aos/aos.js"></script>
+  <script src="../lib/superfish/hoverIntent.js"></script>
+  <script src="../lib/superfish/superfish.min.js"></script>
+  <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
 
   <!--Ionicons-->
   <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
 
   <!-- Javascripts-->
-  <script src="js/main.js"></script>
-  <script src="js/main-timeline.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/main-timeline.js"></script>
 
   <!--Acessibilidade-->
-  <script src="js/jquery-2.2.1.min.js"></script>
-  <script src="js/jquery.font-accessibility.min.js"></script>
+  <script src="../js/jquery-2.2.1.min.js"></script>
+  <script src="../js/jquery.font-accessibility.min.js"></script>
 
   <script>
   $(function(){
