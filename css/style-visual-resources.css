@@ -1666,7 +1666,7 @@ Hover Boxes
 
 
 /*Série 3*/
-.serie3 .layer .inner {background: rgb(255,175,94, 0.8);}
+.serie3 .layer .inner {background: rgb(46,117,150, 0.8);}
 
 .serie3  .inner .fa-plus-circle {
   color: var(--main-color4);
@@ -1678,9 +1678,9 @@ Hover Boxes
   top: -6%;
 }
 
-.serie3 .box-txt {font-size: 14px;}
+.serie3 .box-txt {font-size: 16px;}
 
-.serie3 .box-txt li {margin-bottom:10px;}
+.serie3 .box-txt li {margin-bottom:10px; margin-top: 30px;}
 
 @media (max-width: 767px){
 
