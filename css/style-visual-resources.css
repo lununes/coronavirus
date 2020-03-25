@@ -6,7 +6,7 @@ f/*--------------------------------------------------------------
     --main-color1: #222; /*Black*/
     --main-color2: #601848; /*Purple*/
     --main-color3: #2dc997; /*Green*/
-    --main-color4: #f07241; /*Orange*/
+    --main-color4: #2e7596; /*Blue*/
     --main-color5: #eff5f5; /*Light Gray*/
 
     --secondary-color1: #239872; /*Darker Green*/
@@ -20,7 +20,7 @@ f/*--------------------------------------------------------------
     --amareloIFHT-pressed: #E5A914;
 
     /*Serie 3*/
-    --main-color4: #ef7216; /*Orange*/
+    --main-color4: #2e7596; /*Blue*/
     --main-color4-over: #febf00; /*Mustard*/
     --main-color4-pressed: #b2550f; /*Bronze*/ 
 }
@@ -853,7 +853,7 @@ Hover Boxes
   .card-block p.box-txt {line-height: 1.5rem;}
 
   .box-txt {
-    font-size: 13px;
+    font-size: 14px;
     left:10%;
     top: -15%;
   }
@@ -1655,7 +1655,7 @@ Hover Boxes
 
 @media (max-width: 767px){
 
-  p.box-txt {line-height: 1.5rem;}
+  p.box-txt {line-height: 1.8rem;}
 
   .box-txt {
     font-size: 13px;
