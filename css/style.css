@@ -723,7 +723,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
   }
 }
 
-.section-bg {background: var(--azul);}
+.section-bg {background: #eff5f5;}
 
 .section-bg2 {
   background: transparent url("../img/bg2.png") repeat-y;
