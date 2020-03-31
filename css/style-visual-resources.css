@@ -1782,7 +1782,7 @@ Tabela
 }
 
 .table-responsive.table-bordered {
-  border: none;
+  border: 1px solid ##07d1de;
 }
 
 .table-responsive table {
@@ -1826,9 +1826,9 @@ Tabela
 /*Série 3*/
 
 .table-responsive.serie3 th {
-  background-color: var(--main-color4);
+  background-color: #007699;
   color: #fff;
-  border:1px solid var(--main-color4-pressed);
+  border: 1px solid ##07d1de;
 }
 
 .table-responsive.serie3 td, .table-responsive.serie3 tr{border: 1px solid var(--main-color4-pressed);}
