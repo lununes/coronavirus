@@ -76,7 +76,7 @@ h1 {
   line-height: 3.4rem;
 }
 
-h1 span {font-size: 2.5rem; font-weight: 400; font-style: italic;}
+h1 span {font-size: 2.3rem; font-weight: 400; font-style: italic;}
 
 h2 {font-size:2.25rem;}
 
@@ -651,6 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
  #intro span {
     color:#FFF;
   }
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
