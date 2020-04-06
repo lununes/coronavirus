@@ -482,14 +482,13 @@ strong {font-weight: 700;}
   cursor: pointer;
   display: inline;
   font-size: 24px;
-  margin: 20px 20px 0 0;
+  margin: 20px 0px 0 0;
   outline: none;
   position: fixed;
-  right: 2rem;
+  right: 0.5rem;
   top: 0;
   transition: all 0.4s;
   z-index: 999;
-  
 }
 
 #mobile-nav-toggle i {
@@ -807,7 +806,7 @@ img.img-fluid {margin-bottom:20px;}
 
 #barra-logos {
   background-image: url("../img/bg1.png");
-  background-position: 0 -220px;
+  background-position: 0 -50px;
   background-size: cover;
 }
 
@@ -826,6 +825,12 @@ img.img-fluid {margin-bottom:20px;}
   max-height: 100px;
 }
 
+#barra-logos h6 {
+  color:var(--azul-over);
+  margin-bottom: 0;
+/*  border-bottom: 1px solid var(--azul);*/
+  line-height: 2.3rem;
+}
 
 @media (max-width: 767px) {
 

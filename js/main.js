@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
-  // Smoth scroll on page hash links
+  // Smooth scroll on page hash links
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -117,6 +117,10 @@ jQuery(document).ready(function($) {
     }
   });
 
+   // Scroll to accordion links
+   
+
+
   // Gallery - uses the magnific popup jQuery plugin
   $('.gallery-popup').magnificPopup({
     type: 'image',
@@ -134,7 +138,5 @@ jQuery(document).ready(function($) {
       }
     }
   });
-
-  // custom code
 
 });
