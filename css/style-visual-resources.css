@@ -147,6 +147,26 @@ Accordion
   margin-right: 5px;
 }
 
+
+/* -------------------------------- 
+
+Atividades (H5P)
+
+-------------------------------- */
+
+.h5p-joubelui-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+}
+
+
 /* -------------------------------- 
 
 Box de Citação Curta
