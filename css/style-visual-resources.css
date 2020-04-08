@@ -554,7 +554,7 @@ Hover Boxes
 
    div[class*=item-box] {  
     height: auto;
-    min-height: 250px;
+    min-height: 280px;
     overflow: hidden;
     position: relative;
     margin-bottom: 60px;
@@ -1345,7 +1345,7 @@ Hover Boxes
 -------------------------------- */
 
   div[class*=item-box] {  
-    height: 350px;
+    height: 430px;
     overflow: hidden;
     position: relative;
     margin-bottom: 60px;
@@ -1450,7 +1450,7 @@ Hover Boxes
 
   .layer .inner {
       background: var(--azul2);
-      height: 350px;
+      height: 430px;
       position: relative;
       z-index: 5;
       display: flex;
