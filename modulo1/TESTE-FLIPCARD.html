@@ -496,6 +496,14 @@
                              -webkit-transform-style:preserve-3d;
                              transform-style:preserve-3d;
                              display:grid;
+                             grid-template-columns: repeat(4,auto);
+                             grid-column-gap: .8em;
+
+                             -ms-grid-rows: 5fr 1fr 1fr 2fr 1fr;
+                              grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+                              -ms-grid-column-align: center;
+                              justify-items: center;
+                                                        
                             }
 
                             .flip-card .more {display: none;}
@@ -537,7 +545,7 @@
                              border-radius:10px;
                              -webkit-box-shadow:1px 4px 16px rgba(0,0,0,0.3);
                              box-shadow:1px 4px 16px rgba(0,0,0,0.3);
-                             grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+                             grid-template-rows: 1fr 2fr 1fr 2fr;
                              display: grid;
                             }
 
@@ -651,13 +659,21 @@
                               border-top: none;
                             }
 
+                            .flip-card .flip-card-back .location {
+                                font-weight: 600;
+                                color: #0a151f;
+                                -ms-grid-row: 1;
+                                grid-row: 1;
+                                font-size: .86em;
+                            }
+
                        </style>
                         <div class="flip-card">
                           <input type="checkbox" id="flipcard1" class="more" aria-hidden="true">
                           <div class="flip-card-inner">
                             <div class="flip-card-front">
                               <div class="card-title">
-                                <h3>TESTE</h3>
+                                <h3>CORONAVÍRUS</h3>
                               </div>
                               <div class="card-footer">
                                 <div class="card-btn">
@@ -688,8 +704,9 @@
                                 <h5>Gripe 10 unidades!</h5>
                               </div>
                               <div class="card-text">
-                                <p>Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.Vacine 10 pessoas da sua família! Não esqueça dos avós,  da babá e todos aqueles que vivem na sua casa.</p>
+                                <p>Os coronavírus são um grande grupo de vírus. Eles consistem em um núcleo de material genético cercado por um envelope com espículas de proteínas. Os primeiros coronavírus humanos foram isolados em 1937. No entanto, foi em 1965 que o vírus foi descrito como coronavírus, em decorrência do perfil na microscopia, parecendo uma coroa.</p>
                               </div>
+                              <div class="location"><p>Coronavírus</p></div>
                               <div class="card-footer">
                                 <label for="flipcard1" class="button return" aria-hidden="true">
                                         <i class="fas fa-arrow-left"></i>
