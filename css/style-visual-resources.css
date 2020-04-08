@@ -2937,6 +2937,7 @@ Flipcard 2.0
       margin-bottom: 10px;
       overflow-y: scroll;
       max-height: 260px;
+      padding:1rem;
   }
 
   .flip-card .card-title,
@@ -2950,7 +2951,7 @@ Flipcard 2.0
 
   .flip-card .flip-card-front .card-title {top:40%;}
 
-  .flip-card .flip-card-front .card-footer {top: 60%;}
+  .flip-card .flip-card-front .card-footer {top: 50%;}
 
   .flip-card .flip-card-back .card-title {
     font-weight: 700;
