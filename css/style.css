@@ -908,11 +908,14 @@ img.img-fluid {margin-bottom:20px;}
   text-decoration: none;
 }
 
-#nav-class.serie3 .cta-btn:hover {
-  background: var(--azul-over);
-  color:var(--branco);
-  border: 2px solid var(--azul-over);
+#nav-class .disabled,
+#nav-class .disabled:hover {
+  background:transparent;
+  color:#ccc;
+  border-color:#ccc;
+  text-decoration:none;
 }
+
 
 @media (max-width: 768px) {
   #nav-class {
