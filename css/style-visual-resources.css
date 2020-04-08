@@ -1832,7 +1832,7 @@ Tabela
   margin-bottom:10px;
 }
 
-.table td, .table th {vertical-align: middle;}
+.table td, .table th {vertical-align: top;}
 
 .table thead th {vertical-align: middle;}
 
