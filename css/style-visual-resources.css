@@ -2667,11 +2667,11 @@ Horizontal Timeline
     transform: translateX(0%);
   }
 }
-}
+
 
 /* FLIP CARD ANTIGO */
 
-.flip-card {
+/*.flip-card {
   position: relative;
   background-color: transparent;
   width: 100%;
@@ -2766,7 +2766,7 @@ Horizontal Timeline
 @keyframes flip {
   from {transform: rotateY(0deg);}
   to {transform: rotateY(360deg);}
-}
+}*/
 
 /*----------------------------- 
 
