@@ -156,14 +156,12 @@ strong {font-weight: 700;}
 --------------------------------------------------------------*/
 
 
-/* Legenda */
-#modal-legenda .modal-dialog {max-width: 700px;}
+/* Modais de: Legenda Bibliografia, Créditos e FAQ */
 
-/* Modal Bibliografia, Créditos e FAQ */
-
+#modal-legenda .modal-dialog, 
 #modal-bibliografia .modal-dialog, 
 #modal-creditos .modal-dialog,
-#modal-faq .modal-dialog {max-width: 700px;}
+#modal-material-complementar .modal-dialog {max-width: 95%;}
 
 .modal-dialog  .btn-secondary {
   font-weight: 500;
@@ -203,6 +201,28 @@ strong {font-weight: 700;}
   font-size:14px;
   list-style: none;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/* Modais de: Legenda Bibliografia, Créditos e FAQ */
+  #modal-legenda .modal-dialog, 
+  #modal-bibliografia .modal-dialog, 
+  #modal-creditos .modal-dialog,
+  #modal-material-complementar .modal-dialog {max-width: 95%;}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  /* Modais de: Legenda Bibliografia, Créditos e FAQ */
+  #modal-legenda .modal-dialog, 
+  #modal-bibliografia .modal-dialog, 
+  #modal-creditos .modal-dialog,
+  #modal-material-complementar .modal-dialog {max-width: 700px;}
+
+ }
 
 /* Modal Imagens ampliadas */
 
@@ -485,7 +505,7 @@ strong {font-weight: 700;}
   margin: 20px 0px 0 0;
   outline: none;
   position: fixed;
-  right: 0.5rem;
+  right: 1.25rem;
   top: 0;
   transition: all 0.4s;
   z-index: 999;

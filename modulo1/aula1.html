@@ -15,8 +15,8 @@
   <title>Módulo 1 | Aula 1 - Conceitos básicos</title>
   <meta content="index, follow" name="robots">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Ciência, Fiocruz, Curso, Ciência Aberta" name="keywords">
-  <meta content="Módulo 1: Introdução ao Novo Coronavírus; Aula 1: Conceitos básicos. " name="description">
+  <meta content="Ciência, Fiocruz, Curso, Coronavírus, COVID-19" name="keywords">
+  <meta content="Módulo 1: Introdução ao Novo Coronavírus; Aula 1: Conceitos básicos." name="description">
 
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/8bfaea11f7.js" crossorigin="anonymous"></script>
@@ -42,6 +42,13 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/style-visual-resources.css">
 
+
+  <!-- JS de Includes-->
+  <script src="../js/include.js"></script>
+
+  <!-- JS das Atividades (H5p) -->
+  <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
 </head>
 
 <body id="acessibilidade">
@@ -56,41 +63,63 @@
         <a href="https://campusvirtual.fiocruz.br/portal/formacao-modular/ciencia-aberta" class="scrollto"><img src="../img/logo-cv-white.svg" alt="Ir para o Campus Virtual" title="Campus Virtual"/> </a>
       </div>
 
-      <nav id="nav-menu-container" class="serie3">
-        <ul class="nav-menu" id="menu-curso1">
+
+    
+      <!-- Menu de Navegação -->
+      <nav id="nav-menu-container">
+        <ul class="nav-menu sf-js-enabled sf-arrows" id="menu-curso1" style="touch-action: pan-y;">
           <li class="menu-has-children"><a href="" class="sf-with-ul">Módulos</a>
             <ul style="display: none;">
-              <li class="menu-has-children "><a href="#" class="sf-with-ul">Módulo 1</a>
+              <li class="menu-has-children"><a href="#" class="sf-with-ul">Módulo 1</a>
                 <ul style="display: none;">
-                  <li><h5>Introdução ao novo coronavírus</h5></li>
+                  <li>
+                    <h5>Introdução ao novo coronavírus</h5>
+                  </li>
                   <li><span class="section-divider"></span></li>
-                  <li><a href="aula1.html">Aula 1: Conceitos básicos</a></li>
-                  <li><a href="aula2.html">Aula 2: Transmissão, Sintomas, Diagnóstico e Prevenção</a></li>
-                  <li><a href="aula3.html">Aula 3: O que fazer se você estiver doente?</a></li>
+                  <li><a href="../modulo1/aula1.html">Aula 1: Novo Coronavírus: Conceitos básicos</a></li>
+                  <li><a href="../modulo1/aula2.html">Aula 2: Transmissão, sintomas e prevenção</a></li>
+                  <li><a href="../modulo1/aula3.html">Aula 3: O que fazer se você estiver doente</a></li>
                 </ul>
               </li>
-              
+
               <li class="menu-has-children"><a href="#" class="sf-with-ul">Módulo 2</a>
                 <ul style="display: none;">
-                  <li><h5>Manejo Clínico</h5></li>
+                  <li>
+                    <h5>Manejo Clínico</h5>
+                  </li>
                   <li><span class="section-divider"></span></li>
-                  <li><a href="../modulo2/aula1.html">Aula 1: Preparando Unidades Básicas de Saúde para a Pandemia de Covid-19</a></li>
-                  <li><a href="../modulo2/aula2.html">Aula 2: </a></li>
-                  <li><a href="../modulo2/aula3.html">Aula 3: </a></li>
-                  <li><a href="../modulo2/aula4.html">Aula 4:</a></li>
-                  <li><a href="../modulo2/aula5.html">Aula 5: </a></li>
-                  <li><a href="../modulo2/aula6.html">Aula 6: </a></li>
-                  <li><a href="../modulo2/aula7.html">Aula 7: </a></li>
+                  <li><a href="../modulo2/aula1.html">Aula 1: Organizando sua UBS para a Pandemia</a></li>
+                  <li><a href="../modulo2/aula2.html">Aula 2: Manejo Clínico da COVID-19</a></li>
+                  <li><a href="../modulo2/aula3.html">Aula 3: Como conduzir isolamento domiciliar</a></li>
+                  <li><a href="../modulo2/aula4.html">Aula 4: Protegendo os profissionais de saúde</a></li>
                 </ul>
               </li>
+
+              <!-- <li class="menu-has-children"><a href="#" class="sf-with-ul">Módulo 3</a>
+                <ul style="display: none;">
+                  <li>
+                    <h5>Manejo clínico: Casos graves</h5>
+                  </li>
+                  <li><span class="section-divider"></span></li>
+                  <li><a href="../modulo3/aula1.html">Aula 1: Covid-19: Procedimentos de proteção e controle de infecção em contexto hospitalar</a></li>
+                  <li><a href="../modulo3/aula2.html">Aula 2: Classificando a severidade da Síndrome Respiratória Aguda Grave (SRAG)</a></li>
+                  <li><a href="../modulo3/aula3.html">Aula 3: Suporte respiratório a pacientes com Covid-19</a></li>
+                  <li><a href="../modulo3/aula4.html">Aula 4: Investigação de imagem, laboratorial e diagnóstico diferencial da Covid-19</a></li>
+                  <li><a href="../modulo3/aula5.html">Aula 5: Suporte e terapia farmacológica na Covid-19</a></li>
+                </ul>
+              </li>
+ -->
             </ul>
           </li>
 
-          <li><a href='#' data-toggle="modal" data-target="#modal-bibliografia">Bibliografia</a></li>
-          <li><a href='#' data-toggle="modal" data-target="#modal-creditos">Créditos</a></li>   
-          <li><a href='#' class="cta-btn" data-toggle="modal" data-target="#modal-faq">FAQ</a></li>       
+          <li><a href="#" data-toggle="modal" data-target="#modal-bibliografia">Bibliografia</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-creditos">Créditos</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-material-complementar">Material Complementar</a></li>
+          <li><a class="cta-btn" href="../faq.html" target="_blank">FAQ</a></li>
+          
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
+      <!-- Fim do Menu de Navegação -->
 
     </div>
 
@@ -522,18 +551,18 @@
           <div class="row wow justify-content-center">
               <div class="col-12 col-lg-8">
                  <!--Comparação-->
-                <div class="row mb-5" id="quadro-comparacao">
-                  <div class="col-12 col-lg-5 item item1 wow slideInUp" data-wow-duration="2s">
+                <div class="row justify-content-center" id="quadro-comparacao">
+                  <div class="col-10 col-lg-5 item item1 wow slideInUp" data-wow-duration="2s">
                     <h4 class="text-center"><strong>Pandemia</strong></h4>
                     <p>A Organização Mundial da Saúde (OMS) declarou, em 30 de janeiro de 2020, que o surto da doença causada pelo novo coronavírus (COVID-19) constitui uma Emergência de Saúde Pública de Importância Internacional – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional.  Em 11 de março de 2020, a COVID-19 foi caracterizada pela OMS como uma pandemia . O termo e refere à distribuição geográfica de uma doença e não à sua gravidade. A designação reconhece que, no momento, existem surtos de COVID-19 em vários países e regiões do mundo. </p>
                       
                   </div>
 
-                  <div class="col-12 col-lg-2 align-self-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                  <div class="col-10 col-lg-2 align-self-center wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
                     <p class="text-center"><i class="fas fa-times"></i></p>
                   </div>
 
-                  <div class="col-12 col-lg-5 item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                  <div class="col-10 col-lg-5 item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                     <h4 class="text-center verde"><strong>Epidemia</strong></h4>
                     <p>Ocorrência de casos de uma doença, comportamento especificamente relacionado à saúde, ou outros eventos relacionados à saúde claramente em excesso da expectativa normal em determinada comunidade ou região. A comunidade ou região e o período nos quais os casos ocorrem são precisamente especificados. O número de casos indicando a presença de uma epidemia varia de acordo com o agente infeccioso, tamanho e tipo de população exposta, além de experiência prévia ou falta de exposição à doença, tempo e lugar de ocorrência.</p>
                    
@@ -541,28 +570,28 @@
                 </div>
                 <!--Fim de comparação-->
 
-				<!--Saiba Mais-->
-				<div class="row justify-content-center mb-5 mt-5">
-					<div class="saiba-mais col-12 col-lg-12 serie3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="400">
-						<div class="box-quote multi-border">
-							<h5><i class="fas fa-question-circle" data-fa-transform="grow-25"></i>Saiba mais:</h5>
-							<div class="saiba-mais-content">
-								<p>A responsabilidade de determinar se um evento constitui uma Emergência de Saúde Pública de Importância Internacional cabe ao diretor-geral da OMS e requer a convocação de um comitê de especialistas, que é chamado de Comitê de Emergências do RSI (Regulamento Sanitário Internacional).</p>
-								<p>Esse comitê dá um parecer ao diretor-geral sobre as medidas recomendadas a serem promulgadas em caráter emergencial. Essas Recomendações Temporárias incluem medidas de saúde a serem implementadas pelo Estado Parte onde ocorre a ESPII – ou por outros Estados Partes conforme a situação – para prevenir ou reduzir a propagação mundial de doenças e evitar interferências desnecessárias no comércio e tráfego internacional.</p>
-								<p>Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional.</p>
+        				<!--Saiba Mais-->
+        				<div class="row justify-content-center mb-5 mt-5 mx-auto">
+        					<div class="saiba-mais col-10 col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="400">
+        						<div class="box-quote multi-border">
+        							<h5><i class="fas fa-question-circle" data-fa-transform="grow-25"></i>Saiba mais:</h5>
+        							<div class="saiba-mais-content">
+        								<p>A responsabilidade de determinar se um evento constitui uma Emergência de Saúde Pública de Importância Internacional cabe ao diretor-geral da OMS e requer a convocação de um comitê de especialistas, que é chamado de Comitê de Emergências do RSI (Regulamento Sanitário Internacional).</p>
+        								<p>Esse comitê dá um parecer ao diretor-geral sobre as medidas recomendadas a serem promulgadas em caráter emergencial. Essas Recomendações Temporárias incluem medidas de saúde a serem implementadas pelo Estado Parte onde ocorre a ESPII – ou por outros Estados Partes conforme a situação – para prevenir ou reduzir a propagação mundial de doenças e evitar interferências desnecessárias no comércio e tráfego internacional.</p>
+        								<p>Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional.</p>
 
-								<p>Em 11 de março de 2020, a COVID-19 foi caracterizada pela OMS como uma pandemia. O termo “pandemia” se refere à distribuição geográfica de uma doença e não à sua gravidade. A designação reconhece que, no
-								momento, existem surtos de COVID-19 em vários países e regiões do mundo.</p>
+        								<p>Em 11 de março de 2020, a COVID-19 foi caracterizada pela OMS como uma pandemia. O termo “pandemia” se refere à distribuição geográfica de uma doença e não à sua gravidade. A designação reconhece que, no
+        								momento, existem surtos de COVID-19 em vários países e regiões do mundo.</p>
 
-								<p>O termo pandemia é usado quando uma epidemia- grande surto que afeta uma região - se espalha por diferentes continentes com transmissão sustentada de pessoa a pessoa.</p>
+        								<p>O termo pandemia é usado quando uma epidemia- grande surto que afeta uma região - se espalha por diferentes continentes com transmissão sustentada de pessoa a pessoa.</p>
 
-								<p>Qual a diferença entre pandemia, epidemia, surto e endemia? Entenda melhor em: <a href="https://www.telessaude.unifesp.br/index.php/dno/redes-sociais/159-
-								qual-e-a-diferenca-entre-surto-epidemia-pandemia-e-endemia" target="_blank">Telessaúde São Paulo</a> </p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Fim do Saiba Mais-->
+        								<p>Qual a diferença entre pandemia, epidemia, surto e endemia? Entenda melhor em: <a href="https://www.telessaude.unifesp.br/index.php/dno/redes-sociais/159-
+        								qual-e-a-diferenca-entre-surto-epidemia-pandemia-e-endemia" target="_blank">Telessaúde São Paulo</a> </p>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        				<!--Fim do Saiba Mais-->
 
 
 
@@ -628,7 +657,7 @@
 		<div class="container">
 			<div class="row justify-content-center aos-init aos-animate" data-aos="flip-up">
 
-				<div class="col-12 col-lg-8">
+				<div class="col-10 col-lg-8">
 				<!--  Quiz -->
 				<div class="quizz">
 					<div class="card question-wrapper active" data-question="1">
@@ -667,8 +696,10 @@
         <div class="row">
             <div class="col-lg-6 cta-btn-previous text-center">
               <a class="cta-btn align-middle" href="aula1.html">Aula Anterior</a>
+
             </div>
             <div class="col-lg-6 cta-btn-next text-center">
+
               <a class="cta-btn align-middle" href="aula2.html">Próxima Aula</a>
           </div>
         </div>
@@ -676,7 +707,7 @@
     </section>
       
     <!--==========================
-      Bloco 14 - Barra de logos
+      Barra de logos
     ============================-->
     <section id="barra-logos">
       <div class="container">
@@ -709,7 +740,7 @@
     </section>
 
   <!--==========================
-      Modais - Bibliografia & Créditos
+      Modais - Bibliografia, Créditos & Material Complementar
     ============================-->
 
       <!-- Modal Bibliografia-->
@@ -1136,6 +1167,9 @@
 
 
           
+
+    <!-- Include da Créditos -->
+    <div w3-include-html="../material-complementar.html"></div>
 
   </main>
 
