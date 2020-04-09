@@ -175,7 +175,7 @@ Box de Citação Curta
 
 .box-quote {
   padding: 30px;
-  background: var(--branco);
+  background: #f0f5f5;
 	box-shadow: 5px 3px 5px rgba(0,0,0, 0.2);
 	border-radius: 6px;
   margin-bottom: 30px;
@@ -191,7 +191,9 @@ Box de Citação Curta
 .box-quote p.circle {color: var(--branco) !important;}
 
 
-.box-quote h5  {font-weight: bold;}
+.box-quote h5  {
+  font-weight: bold;
+  color:var(--azul2) !important; }
 
 .box-quote ul li {
   font-style: italic;
