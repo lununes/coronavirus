@@ -512,7 +512,7 @@
 
                                     <p> Síndrome Gripal</p>
                                     <p style="font-style: italic; color: var(--azul); font-size: 140%">+
-                                    <p>presença de dispneia ou <a href="#">Síndrome Respiratória Aguda Grave</a></p>
+                                    <p>presença de dispneia ou <a href="#" data-toggle="modal" data-target="#modal-srag">Síndrome Respiratória Aguda Grave</a></p>
                                   
                                   </b>
 
@@ -542,6 +542,37 @@
                        
              </div><!--fim da row-->
             <!--Fim da Tabela horizontal-->
+
+
+<!-- Modal SRAG-->
+    <div class="modal fade" id="modal-srag" tabindex="-1" role="dialog"
+      aria-labelledby="modal-glossarioTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-sragTitle">Título do meu modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+        <p>Sinais de desconforto respiratório ou aumento de frequência respiratória avaliada de acordo com a idade</p>
+        <p>Piora nas condições clínicas de doenças de base</p>
+        <p>Hipotensão</p>
+        <p>Indivíduo de qualquer idade com quadro de insuficiência respiratória aguda</p>
+        <p>Saturação de SpO2 <95% em ar ambiente</p>
+
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- Modal Glossário -->
+
+            
 
              <p>As condições crônicas preexistentes  mais comuns estão marcadas em negrito</p>
 
@@ -890,7 +921,7 @@
               
                   <h5>Confira o checklist das prescrições de cuidados no domicílio:</h5>
 
-                  <ul class="list-group">
+                  <ul class="list-group>
                       <li class="list-group-item wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: slideInUp;"><i class="icon-bullet"></i>Repouso</li>
                     <li class="list-group-item wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: slideInUp;"><i class="icon-bullet"></i>Hidratação</li>
                     <li class="list-group-item wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: slideInUp;"><i class="icon-bullet"></i>Alimentação adequada e uma boa oferta de líquidos</li>
@@ -903,8 +934,8 @@
                   <h5>Opções terapêuticas recomendadas pelo Ministério da Saúde:</h5>
 
                   <ul>
-                    <li> Antitérmico: Paracetamol ou Dipirona</li>
-                    <li> Antiinflamatório: Ibuprofeno</li>
+                    <li> Antitérmico: <a href="#" data-toggle="modal" data-target="#modal-paracetamol">Paracetamol</a> ou <a href="#" data-toggle="modal" data-target="#modal-dipirona">Dipirona</a></li>
+                    <li> Antiinflamatório: <a href="#" data-toggle="modal" data-target="#modal-ibuprofeno">Ibuprofeno</a></li>
                   </ul>
 
                     <p>Introduzir imediatamente Oseltamivir se há risco de complicações. Ajuste a dose de acordo com peso/idade, e para pacientes renais crônicos, de acordo com o Protocolo de Manejo na APS.</p>
