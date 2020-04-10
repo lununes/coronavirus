@@ -1611,6 +1611,16 @@ Lista Simples
   margin-top: 3px;
 }
 
+i.icon-bullet-check {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: transparent url("../img/ic-list-bullet-check.svg") no-repeat 0 0;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
 /*Série 3*/
 .serie3 .obj-lista .list-group-item i.icon-bullet {background: transparent url("../img/ic-list-bullet-serie3.svg") no-repeat 0 0;}
 
