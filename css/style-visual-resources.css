@@ -1611,7 +1611,7 @@ Lista Simples
   margin-top: 3px;
 }
 
-i.icon-bullet-check {
+i.icon-bullet-checklist {
   display: block;
   width: 20px;
   height: 20px;
@@ -1815,7 +1815,7 @@ Tabela
 }
 
 .table-responsive.table-bordered {
-  border: 1px solid ##07d1de;
+  border: 1px solid #07d1de;
 }
 
 .table-responsive table {
@@ -2859,6 +2859,7 @@ Flipcard 2.0
     text-shadow: 0 0 6px rgba(0,0,0,.1);
     text-align: center;
     font-size: 1.2em;
+    line-height: 1.2em;
     position: relative;
   }
 
