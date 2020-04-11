@@ -1828,27 +1828,28 @@ Tabela
 }
 
 .table-responsive table thead th {
-  border: none;
+  border: 1px solid var(--azul);
 }
 
 .table-responsive th {
-  background-color: var(--main-color3);
+  background-color: var(--azul2);
   color: #fff;
-  border:1px solid var(--main-color2);
+  border:1px solid var(--azul);
 }
 
 .table-responsive th a {color:#fff;}
 
 .table-responsive td,
 .table-responsive tr {
-  border: 1px solid var(--main-color2)
+  border: 1px solid var(--azul)
 }
 
 .table ul li {
   margin-bottom:10px;
 }
 
-.table td, .table th {vertical-align: top;}
+.table td, 
+.table th {vertical-align: middle;}
 
 .table thead th {vertical-align: middle;}
 
@@ -1877,14 +1878,14 @@ Tabela
 }
 
 /*Série 3*/
-
+/* 
 .table-responsive.serie3 th {
   background-color: #007699;
   color: #fff;
   border: 1px solid ##07d1de;
 }
 
-.table-responsive.serie3 td, .table-responsive.serie3 tr{border: 1px solid var(--main-color4-pressed);}
+.table-responsive.serie3 td, .table-responsive.serie3 tr{border: 1px solid var(--main-color4-pressed);} */
 
 /* -------------------------------- 
 
@@ -2984,7 +2985,7 @@ Flipcard 2.0
 
   .flip-card .flip-card-front .card-title {top:40%;}
 
-  .flip-card .flip-card-front .card-footer {top: 50%;}
+  .flip-card .flip-card-front .card-footer {top: 40%;}
 
   .flip-card .flip-card-back .card-title {
     font-weight: 700;
