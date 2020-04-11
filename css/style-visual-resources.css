@@ -1852,6 +1852,22 @@ Tabela
 
 .table thead th {vertical-align: middle;}
 
+#epi td,
+#epi tr {
+  border: 1px solid #07d1de;
+  font-size: 10px;
+}
+
+#epi p{
+  font-weight: 700;
+  margin: 0;
+}
+
+#epi b{
+  font-weight: 500;
+  color: #007699;
+}
+
 @media (max-width: 767px) {
 
   .table {font-size:10px;}
