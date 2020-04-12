@@ -1848,9 +1848,6 @@ Tabela
   margin-bottom:10px;
 }
 
-.table td, 
-.table th {vertical-align: middle;}
-
 .table thead th {vertical-align: middle;}
 
 #epi td,
