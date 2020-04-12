@@ -574,7 +574,7 @@
 					<text transform="matrix(1 0 0 1 383.1999 215.2775)" style="fill:#15B7FF; font-family:'Montserrat-ExtraBold'; font-size:4.2092px;">O</text>
 			</g>
 			<text transform="matrix(1 0 0 1 540.2702 281.2336)"><tspan x="0" y="0" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">SINTOMAS</tspan><tspan x="-47.79" y="8.27" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">GASTROINTESTINAIS,</tspan><tspan x="-26.7" y="16.55" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">COMO DIARRÉIA</tspan><tspan x="-16.08" y="24.82" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">(MAIS RAROS)</tspan></text>
-			<text transform="matrix(1 0 0 1 317.2477 351.1564)"><tspan x="0" y="0" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">DIFICULDADE </tspan><tspan x="0" y="8.27" class="st1" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">DE RESPIRAR</tspan></text>
+			<text transform="matrix(1 0 0 1 317.2477 351.1564)"><tspan x="0" y="0" class="st2" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">DIFICULDADE </tspan><tspan x="0" y="8.27" class="st2" style="font-family:'Montserrat-ExtraBold'; font-size:7.1346px;">DE RESPIRAR</tspan></text>
 		</g>
 		
 			<rect x="227.04" y="166.54" transform="matrix(0.1122 -0.9937 0.9937 0.1122 23.513 385.8289)" class="st14" width="1.28" height="26.43"/>
