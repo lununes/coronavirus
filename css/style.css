@@ -158,10 +158,10 @@ strong {font-weight: 700;}
 
 /* Modais de: Legenda Bibliografia, Créditos e FAQ */
 
-#modal-legenda .modal-dialog, 
+/* #modal-legenda .modal-dialog, 
 #modal-bibliografia .modal-dialog, 
 #modal-creditos .modal-dialog,
-#modal-material-complementar .modal-dialog {max-width: 95%;}
+#modal-material-complementar .modal-dialog {max-width: 95%;} */
 
 .modal-dialog  .btn-secondary {
   font-weight: 500;
@@ -206,10 +206,10 @@ strong {font-weight: 700;}
 @media (min-width: 768px) {
 
 /* Modais de: Legenda Bibliografia, Créditos e FAQ */
-  #modal-legenda .modal-dialog, 
+  /* #modal-legenda .modal-dialog, 
   #modal-bibliografia .modal-dialog, 
   #modal-creditos .modal-dialog,
-  #modal-material-complementar .modal-dialog {max-width: 95%;}
+  #modal-material-complementar .modal-dialog {max-width: 95%;} */
 
 }
 
