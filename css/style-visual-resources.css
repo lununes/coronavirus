@@ -2876,7 +2876,7 @@ Flipcard 2.0
    padding:1.25rem;
   }
   .flip-card-front {
-   background-color:var(--azul2);
+   background-color:var(--azul);
    border-radius:10px;
    -webkit-box-shadow:1px 4px 16px rgba(0,0,0,0.3);
    box-shadow:1px 4px 16px rgba(0,0,0,0.3);
@@ -2943,7 +2943,7 @@ Flipcard 2.0
 }
 
 .flip-card .flip-card-front .button svg {
-  fill: var(--branco);
+  fill: var(--azul-over);
   width: 40%;
 }
 
