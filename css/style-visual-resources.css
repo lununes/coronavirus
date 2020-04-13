@@ -28,6 +28,7 @@ f/*--------------------------------------------------------------
     --azul2: #007699; /*Azul médio*/
     --azul-over: #0d4a7f; /*Azul escuro*/
     --azul-pressed: #07d1de; /*Azul claro*/
+    --azul-background: #eff5f5; /*Azul claro para fundo*/
 }
 }
 
@@ -1886,37 +1887,50 @@ Tabela
 
 /* -------------------------------- 
 
-Tabs
+Abas
 
 -------------------------------- */
 
-/*Série3*/
+.abas .nav-tabs {border-color: var(--azul);}
 
-.abas.serie3 .nav-tabs {
-    border-color: var(--main-color4);
-}
-
-.abas.serie3 .nav-tabs .nav-item.show .nav-link, 
-.abas.serie3  .nav-tabs .nav-link.active {
+.abas .nav-tabs .nav-item.show .nav-link, 
+.abas .nav-tabs .nav-link.active {
     color: #495057;
-    background-color: #fff;
-    border-color: var(--main-color4) var(--main-color4) var(--branco);
+    background-color: var(--azul-background);
+    border-color: var(--azul) var(--azul) var(--azul-background);
 }
 
-.abas.serie3  .nav-tabs .nav-link:focus, 
-.abas.serie3  .nav-tabs .nav-link:hover {
-   border-color: var(--main-color4) var(--main-color4) var(--branco);
+.abas .nav-tabs .nav-link:focus, 
+.abas .nav-tabs .nav-link:hover {
+   border-color: var(--azul) var(--azul) var(--azul-background);
+   background: var(--azul-background);
 }
 
-.abas.serie3 .tab-content {
-    border: 1px solid var(--main-color4);
+.abas .tab-content {
+    border: 1px solid var(--azul);
     border-top: none;
-    background: var(--branco);
+    background: var(--azul-background);
 }
 
+.abas ul li {margin-bottom: 1rem;}
+
+.abas .nav-tabs .nav-item {
+    width: 33.3%;
+    font-size: 0.65rem;
+}
+.abas .nav-link {padding:0.5rem;}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .abas .nav-tabs .nav-item {
+      width:auto;
+      font-size: 1rem;
+  }
+
+}
 
 /* Abas com botões */
-
 #pills-tab .nav-item {
   font-size: 0.9rem;
   width: 100%;
