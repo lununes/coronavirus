@@ -558,7 +558,7 @@ strong {font-weight: 700;}
   font-weight: 500;
 }
 
-#mobile-nav ul li a:hover {color: var(--azul2);}
+#mobile-nav ul li a:hover {color: var(--azul);}
 
 #mobile-nav ul li a.cta-btn {
   display:inline;

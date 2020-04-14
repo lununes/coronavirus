@@ -68,6 +68,7 @@
       <!-- Menu de Navegação -->
       <nav id="nav-menu-container">
         <ul class="nav-menu sf-js-enabled sf-arrows" id="menu-curso1" style="touch-action: pan-y;">
+          <li><a href="#" data-toggle="modal" data-target="#modal-apresentacao">Apresentação do curso</a></li>
           <li class="menu-has-children"><a href="" class="sf-with-ul">Módulos</a>
             <ul style="display: none;">
               <li class="menu-has-children"><a href="#" class="sf-with-ul">Módulo 1</a>
@@ -474,10 +475,14 @@
 
             <div class="col-12 mb-4 mb-md-0">
         <!--Vídeo-->
-        <div class="embed-responsive embed-responsive-16by9 mt-3 mb-5">
+        <!-- <div class="embed-responsive embed-responsive-16by9 mt-3 mb-5">
           <iframe src="https://www.educare.fiocruz.br/resource/show?id=0BVih39o" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
         </div>
-        <p class="reference-title text-center mt-3">Veja o vídeo completo no Educare: <a href="https://www.educare.fiocruz.br/file-storage/OovMSXaB" target="_blank">https://www.educare.fiocruz.br/file-storage/OovMSXaB</a></p>
+        <p class="reference-title text-center mt-3">Veja o vídeo completo no Educare: <a href="https://www.educare.fiocruz.br/file-storage/OovMSXaB" target="_blank">https://www.educare.fiocruz.br/file-storage/OovMSXaB</a></p>-->
+        <div class="embed-responsive embed-responsive-16by9 mt-3 mb-5">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zBJL45toodo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- <p class="reference-title text-center mt-3">Veja o vídeo completo no Educare: <a href="https://www.educare.fiocruz.br/file-storage/OovMSXaB" target="_blank">https://www.educare.fiocruz.br/file-storage/OovMSXaB</a></p> -->
       
         <!--Fim de vídeo--> 
             </div><!--fim da coluna-->
@@ -1119,11 +1124,11 @@ Esses são alguns desses canais:
       <div class="container">
         <div class="row">
             <div class="col-lg-6 cta-btn-previous text-center">
-              <p class="cta-btn disabled align-middle">Aula Anterior</p>
+              <a class="cta-btn align-middle" href="aula3.html">Aula Anterior</a>
             </div>
 
             <div class="col-lg-6 cta-btn-next text-center">
-              <a class="cta-btn align-middle" href="aula2.html">Próxima Aula</a>
+              <p class="cta-btn disabled align-middle">Módulo 3 em breve</p>
           </div>
         </div>
     </div>
@@ -1137,6 +1142,9 @@ Esses são alguns desses canais:
   <!--==========================
       Modais - Bibliografia, Créditos & Material Complementar
     ============================-->
+
+    <!-- Include da Apresentação-->
+    <div w3-include-html="../apresentacao.html"></div>
 
      <!-- Include da Bibliografia -->
     <div w3-include-html="../bibliografia-modulo2.html"></div>
