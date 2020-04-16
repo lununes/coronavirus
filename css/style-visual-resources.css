@@ -138,7 +138,7 @@ Accordion
 
 .accordion a.collapsed:hover, .accordion a.collapsed:focus {color:var(--azul);}
 
-.accordion a.collapsed {color: var(--azul);}
+.accordion a.collapsed {color: var(--azul2);}
 
 .accordion a.collapsed i::before {content: "\f273" !important;}
 

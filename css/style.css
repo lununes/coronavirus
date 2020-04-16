@@ -1393,6 +1393,21 @@ img.img-fluid {margin-bottom:20px;}
   margin-bottom: 20px;
 }
 
+#faq a{
+
+  color: var(--azul2);
+}
+
+#faq a:hover{
+
+  color: var(--azul);
+}
+
+#faq .nav-item, #faq .nav-link.active{
+
+  color: #FFF;
+}
+
 @media (max-width: 768px) {
   #faq #faq-list a {
     font-size: 18px;
