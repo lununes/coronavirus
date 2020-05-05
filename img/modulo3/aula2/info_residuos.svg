@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 352.7 214" style="enable-background:new 0 0 352.7 214;" xml:space="preserve">
+	 viewBox="0 0 352.7 228.9" style="enable-background:new 0 0 352.7 228.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#3F7593;}
 	.st1{font-family:'Montserrat-ExtraBold';}
@@ -11,12 +11,10 @@
 	.st5{font-size:6.8px;}
 	.st6{clip-path:url(#SVGID_2_);}
 	.st7{fill:#49CDDA;}
-	.st8{font-size:6.4337px;}
+	.st8{font-size:7px;}
 	.st9{font-family:'Montserrat-Regular';}
 </style>
 <text transform="matrix(1 0 0 1 55.7651 20.637)" class="st0 st1 st2">PROCESSO DE GESTÃO DE RESÍDUOS</text>
-<g>
-</g>
 <g>
 	<g>
 		<path class="st0" d="M73.4,110.4H21.3c-2.7,0-4.9-2.2-4.9-4.9v-52c0-2.7,2.2-4.9,4.9-4.9h52.1c2.7,0,4.9,2.2,4.9,4.9v52.1
@@ -37,8 +35,6 @@
 	</g>
 </g>
 <g>
-</g>
-<g>
 	<path class="st0" d="M332.9,109.6h-52.1c-2.7,0-4.9-2.2-4.9-4.9V52.8c0-2.7,2.2-4.9,4.9-4.9h52.1c2.7,0,4.9,2.2,4.9,4.9v51.9
 		C337.8,107.4,335.6,109.6,332.9,109.6z"/>
 	<path class="st4" d="M335.1,110.2h-56.3c-1.8,0-3.3-1.5-3.3-3.3V50.6c0-1.8,1.5-3.3,3.3-3.3h56.3c1.8,0,3.3,1.5,3.3,3.3v56.2
@@ -48,8 +44,6 @@
 <g>
 	<path class="st3" d="M343.9,78.7h-1.2V47.8c0-1.3-0.5-2.5-1.4-3.4s-2.1-1.4-3.4-1.4H276c-1.3,0-2.5,0.5-3.4,1.4s-1.4,2.1-1.4,3.4
 		v30.9H270V47.8c0-1.6,0.6-3.1,1.8-4.2c1.1-1.1,2.6-1.8,4.3-1.8H338c1.6,0,3.1,0.6,4.3,1.8c1.1,1.1,1.8,2.6,1.8,4.2v30.9H343.9z"/>
-</g>
-<g>
 </g>
 <g>
 	<path class="st0" d="M158.8,110.4h-52.1c-2.7,0-4.9-2.2-4.9-4.9v-52c0-2.7,2.2-4.9,4.9-4.9h52.1c2.7,0,4.9,2.2,4.9,4.9v52.1
@@ -69,8 +63,6 @@
 	</g>
 </g>
 <g>
-</g>
-<g>
 	<path class="st0" d="M245.3,110.1h-52.1c-2.7,0-4.9-2.2-4.9-4.9V53.1c0-2.7,2.2-4.9,4.9-4.9h52.1c2.7,0,4.9,2.2,4.9,4.9v52.1
 		C250.1,107.9,248,110.1,245.3,110.1z"/>
 	<path class="st4" d="M247.4,110.7h-56.3c-1.8,0-3.3-1.5-3.3-3.3V51c0-1.8,1.5-3.3,3.3-3.3h56.3c1.8,0,3.3,1.5,3.3,3.3v56.3
@@ -81,7 +73,7 @@
 	<g>
 		<path class="st3" d="M264.7,79.8H255V48.2c0-1.3-0.5-2.5-1.4-3.4s-2.1-1.4-3.4-1.4h-61.9c-1.3,0-2.5,0.5-3.4,1.4s-1.4,2.1-1.4,3.4
 			v29h-1.2v-29c0-1.6,0.6-3.1,1.8-4.3c1.1-1.1,2.6-1.8,4.3-1.8h61.9c1.6,0,3.1,0.6,4.3,1.8c1.1,1.1,1.8,2.6,1.8,4.3v30.4h8.4v1.2
-			H264.7z"/>
+			C264.8,79.8,264.7,79.8,264.7,79.8z"/>
 	</g>
 	<g>
 		<polygon class="st3" points="263.8,82.2 269,79.2 263.8,76.1 		"/>
@@ -185,13 +177,15 @@
 </g>
 <g>
 	<g>
-		<defs>
-			<rect id="SVGID_1_" x="-6.1" y="303.9" width="377.4" height="208.2"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g id="zSJnti.tif" class="st6">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="-6.1" y="303.9" width="377.4" height="208.2"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="zSJnti.tif" class="st6">
+			</g>
 		</g>
 	</g>
 </g>
@@ -425,7 +419,7 @@
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 300.8981 207.3011)" class="st0 st1 st8">FONTE:</text>
-	<text transform="matrix(1 0 0 1 325.8981 207.3011)" class="st0 st9 st8"> OMS</text>
+	<text transform="matrix(1 0 0 1 84.504 220.3011)" class="st0 st1 st8">FONTE:</text>
+	<text transform="matrix(1 0 0 1 112.504 220.3011)" class="st0 st9 st8"> ORGANIZAÇÃO MUNDIAL DE SAÚDE (OMS)</text>
 </g>
 </svg>
