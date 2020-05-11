@@ -1616,6 +1616,8 @@ Lista Simples
   margin-top: 3px;
 }
 
+#box-glossario .obj-lista .list-group-item{background: #eff5f5;}
+
 i.icon-bullet-checklist {
   display: block;
   width: 20px;
