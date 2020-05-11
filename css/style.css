@@ -72,10 +72,18 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
   color:var(--branco);
-  line-height: 3.4rem;
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 { 
+      font-size: 3rem;
+      line-height: 3.4rem;
+    }
+ }
 
 h1 span {font-size: 2.3rem; font-weight: 400; font-style: italic; line-height: 2.3frem;}
 
@@ -330,7 +338,7 @@ strong {font-weight: 700;}
 #breadcrumb #font-setting-buttons {
   position: relative;
   top: -3px;
-  right: 30px;
+  /* right: 30px; */
 }
 
 #breadcrumb .btn-outline-secondary {
@@ -385,7 +393,6 @@ strong {font-weight: 700;}
   padding: 5px 20px;
   border-radius: 25px;
   transition: background 0.5s;
-  margin: 0 10px;
   background: var(--azul);
   color: var(--branco);
 }
@@ -416,7 +423,7 @@ strong {font-weight: 700;}
 
 /* Nav Meu Container */
 #nav-menu-container {
-  float: left;
+  float: right;
   right: 0;
   top: 0;
   z-index: 999;
@@ -427,10 +434,9 @@ strong {font-weight: 700;}
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
-  width: 83%;
 }
 
-#header.header-fixed #nav-menu-container {margin:13px 10px;}
+#header.header-fixed #nav-menu-container {margin:13px 0;}
 
 #nav-menu-container .menu-has-children h4,
 #nav-menu-container .menu-has-children h5  {
@@ -506,7 +512,7 @@ strong {font-weight: 700;}
   margin: 20px 0px 0 0;
   outline: none;
   position: fixed;
-  right: 1.25rem;
+  right: 0;
   top: 0;
   transition: all 0.4s;
   z-index: 999;
