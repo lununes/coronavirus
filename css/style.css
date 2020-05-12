@@ -12,8 +12,8 @@
     --preto: #212529; /*Preto*/
     --azul: #07d1de; /*Azul claro*/
     --azul2: #007699; /*Azul médio*/
-    --azul-over: #0d4a7f; /*Azul escuro*/
-    --azul-pressed: #07d1de; /*Azul claro*/
+    --azul-over: #07d1de; /*Azul escuro*/
+    --azul-pressed: #0d4a7f; /*Azul claro*/
     --azul-background: #eff5f5; /*Azul claro para fundo*/
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 a {
-  color: var(--azul);
+  color: var(--azul2);
   transition: 0.5s;
   font-weight: 500;
 }
