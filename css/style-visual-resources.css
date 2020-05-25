@@ -189,6 +189,16 @@ Box de Citação Curta
     color:var(--preto) !important;
 }
 
+.box-destaque {
+    font-size: 18px;
+    font-style: italic;
+    color:var(--azul2) !important;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+
+}
+
 .box-quote p.circle {color: var(--branco) !important;}
 
 
