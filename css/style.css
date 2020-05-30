@@ -1395,24 +1395,19 @@ img.img-fluid {margin-bottom:20px;}
   top: 16px;
 }
 
-#faq #faq-list p {
-  margin-bottom: 20px;
-}
+#faq #faq-list p { margin-bottom: 20px;}
 
-#faq a{
+#faq a{color: var(--azul2);}
 
-  color: var(--azul2);
-}
+#faq a:hover{color: var(--azul);}
 
-#faq a:hover{
-
-  color: var(--azul);
-}
-
-#faq .nav-item, #faq .nav-link.active{
-
+#faq .nav-item, 
+#faq .nav-link.active {
   color: #FFF;
 }
+
+#faq .nav-pills .nav-link.active, 
+#faq  .nav-pills .show > .nav-link {color:#fff;}
 
 @media (max-width: 768px) {
   #faq #faq-list a {
