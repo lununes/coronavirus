@@ -373,7 +373,7 @@ strong {font-weight: 700;}
 
 .nav-menu li {
   position: relative;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 .nav-menu > li {float: left;}
@@ -482,13 +482,15 @@ strong {font-weight: 700;}
 .nav-menu ul li {transition: 0.3s;}
 
 .nav-menu ul li a {
-  padding: 10px;
+  padding: 0.5rem 1rem 0.5rem;
   color: var(--preto);
   transition: 0.3s;
   display: block;
   font-size: 13px;
   text-transform: none;
 }
+
+.nav-menu ul li:nth-child(3) ul {width: 450px;}
 
 .nav-menu.serie3 ul li a,{color: var(--branco);}
 
@@ -1395,24 +1397,19 @@ img.img-fluid {margin-bottom:20px;}
   top: 16px;
 }
 
-#faq #faq-list p {
-  margin-bottom: 20px;
-}
+#faq #faq-list p { margin-bottom: 20px;}
 
-#faq a{
+#faq a{color: var(--azul2);}
 
-  color: var(--azul2);
-}
+#faq a:hover{color: var(--azul);}
 
-#faq a:hover{
-
-  color: var(--azul);
-}
-
-#faq .nav-item, #faq .nav-link.active{
-
+#faq .nav-item, 
+#faq .nav-link.active {
   color: #FFF;
 }
+
+#faq .nav-pills .nav-link.active, 
+#faq  .nav-pills .show > .nav-link {color:#fff;}
 
 @media (max-width: 768px) {
   #faq #faq-list a {
