@@ -809,7 +809,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
     float: none;
   }
 
-img.img-fluid {margin-bottom:20px;}
+img.img-fluid {margin-bottom:0.5rem;}
 
 .full-left-img {margin-left: -15px;}
 

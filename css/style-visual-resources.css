@@ -83,9 +83,21 @@ Accordion
   list-style: none;
 }
 
+#accordion-bibliografia.accordion li,
+#faq .accordion li, 
 .accordion li {border-bottom: 1px solid #ddd;}
 
-.accordion li ul li {margin-bottom: 15px;}
+.accordion li ul {
+  list-style: disc;
+  margin-bottom:2rem;
+}
+
+.accordion li ul li {
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+}
+
+.accordion li ul li ul {list-style: circle;}
 
 .accordion a {
   padding: 18px 0;
@@ -114,8 +126,14 @@ Accordion
 }
 
 .accordion p {
-  font-size: 14px;  
+  font-size: 1rem;  
   margin: 0 30px 20px 30px;
+}
+
+.accordion p.reference-title {
+  font-size: 13px;
+  margin: 10px 0 0 0;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -2955,7 +2973,7 @@ Flipcard 2.0
 }
 
 .flip-card .flip-card-front .button svg {
-  fill: var(--azul-over);
+  fill: #fff;
   width: 40%;
 }
 
