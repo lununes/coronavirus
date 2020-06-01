@@ -230,7 +230,8 @@ Box de Citação Curta
 
 .box-quote ul li {
   font-style: italic;
-  list-style: circle;
+  list-style: disc;
+  margin-bottom: 1rem;
 }
 
 .box-quote ul li i {margin-right:10px;}
@@ -1875,9 +1876,8 @@ Tabela
   border: 1px solid var(--azul)
 }
 
-.table ul li {
-  margin-bottom:10px;
-}
+.table ul li, 
+.table ol li {margin-bottom:10px;}
 
 .table thead th {vertical-align: middle;}
 
