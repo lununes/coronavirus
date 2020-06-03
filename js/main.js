@@ -117,9 +117,15 @@ jQuery(document).ready(function($) {
     }
   });
 
-   // Scroll to accordion links
-   
+   // Scroll to an anchor point
+   $(document).ready(function(){
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top - 145}, 1500, 'easeInOutExpo');
+    });
+  });
 
+   
 
   // Gallery - uses the magnific popup jQuery plugin
   $('.gallery-popup').magnificPopup({
