@@ -215,6 +215,11 @@ strong {font-weight: 700;}
   list-style: none;
 }
 
+#modal-creditos ul small {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
