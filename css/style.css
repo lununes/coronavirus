@@ -87,9 +87,18 @@ h1 {
     }
  }
 
-h1 span {font-size: 2.3rem; font-weight: 400; font-style: italic; line-height: 2.3frem;}
+h1 span {
+  font-size: 2.1rem; 
+  font-weight: 400; 
+  font-style: italic; 
+  line-height: 2.3rem;
+  margin: 0 1rem;
+}
 
-h2 {font-size:2.25rem;}
+h2 {
+  font-size:2rem;
+  line-height: 2.2rem;
+}
 
 h3 {font-size:1.65rem;}
 
@@ -645,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 75vh; /*100vh é o original*/
+  height: 100vh; /*100vh é o original*/
   background-image: url("../img/bg1-v2-serie3.jpg"); /* The image used */
   background-color: rgb(255,255,255, 0.5);
   background-size: cover;
@@ -673,10 +682,11 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
   border-radius: 6px;
   bottom: 1.3rem;
   color:var(--branco);
-  display: inline;
+  display: inline-block;
   font-weight: 500;
   padding: 5px 15px;
   position: relative;
+  max-width: 75%;
 }
 
 #intro .intro-text img {
@@ -710,6 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
   #intro .intro-text img {
     width: 250px;
     margin-top: 35px;
+    height: 70vh; /*100vh é o original*/
   }
 }
 
@@ -797,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {color: var(--branco);}
     transform: rotate(-5deg);
     content: "";
     position: absolute;
-    bottom: -151px; 
+    bottom: -135px/*-151px; */
   }
 
   @media screen and (max-width: 960px) {
