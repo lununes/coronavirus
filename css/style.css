@@ -138,6 +138,29 @@ strong {font-weight: 700;}
   margin: 0;
 }
 
+.cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 80px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  background: var(--azul-over);
+  color: var(--branco);
+}
+
+.cta-btn:hover {
+  transition: background 0.5s;
+  background: var(--azul2);
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.cta-btn .fas {color:var(--branco);}
+
 /*--------------------------------------------------------------
 
 # Botão Back to top
@@ -164,7 +187,7 @@ strong {font-weight: 700;}
 }
 
 .back-to-top:hover {
-  background:var(--azul-over);
+  background:var(--azul2);
   color: var(--branco);
 }
 
