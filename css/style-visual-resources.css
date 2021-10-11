@@ -30,7 +30,6 @@ f/*--------------------------------------------------------------
     --azul-pressed: #07d1de; /*Azul claro*/
     --azul-background: #eff5f5; /*Azul claro para fundo*/
 }
-}
 
 /* -------------------------------- 
 
@@ -1769,13 +1768,14 @@ Slider
   padding-right: 100px;
 }
 
-.carousel-indicators .active {background-color: var(--main-color3);}
 
-.carousel-indicators li {background-color: var(--main-color2);}
+.carousel-indicators .active {background-color: var(--azul);}
+
+.carousel-indicators li {background-color: var(--azul-pressed);}
 
 /*Série 3*/
-.carousel.serie3 .carousel-indicators .active {background-color: var(--main-color4-over);}
-.carousel.serie3  .carousel-indicators li {background-color: var(--main-color4);}
+.carousel.serie3 .carousel-indicators .active {background-color: var(--azul);}
+.carousel.serie3  .carousel-indicators li {background-color: var(--azul-pressed);}
 
 
 .carousel article {padding: 20px 60px;}
